@@ -19,7 +19,7 @@ const prodAssetsUrl = ''; // Set this to the url where the assets will be deploy
                           // If you want the paths to be relative to the deploy then leave this
                           // value as an empty string. This value could also be a CDN or
                           // it could be the ssl version of your S3 bucket ie:
-                          // https://s3.amazonaws.com/reactrailsstarterapp.com;
+                          // https://s3.amazonaws.com/Landlord.com;
 
 // const prodAssetsUrl = `https://s3.amazonaws.com/${deployConfig.domain}`;
 

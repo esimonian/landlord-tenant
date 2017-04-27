@@ -1,4 +1,4 @@
-# React Rails Starter App [![Build Status](https://travis-ci.org/atomicjolt/react_client_starter_app.svg?branch=master)](https://travis-ci.org/atomicjolt/react_client_starter_app) [![Coverage Status](https://coveralls.io/repos/github/atomicjolt/react_rails_starter_app/badge.svg?branch=master)](https://coveralls.io/github/atomicjolt/react_rails_starter_app?branch=master)
+# React Rails Starter App [![Build Status](https://travis-ci.org/atomicjolt/react_client_starter_app.svg?branch=master)](https://travis-ci.org/atomicjolt/react_client_starter_app) [![Coverage Status](https://coveralls.io/repos/github/atomicjolt/landlord/badge.svg?branch=master)](https://coveralls.io/github/atomicjolt/landlord?branch=master)
 -----------------------
 There are many starter kits that will help you get started with React and Redux.
 This is the one created by, maintained by and used by [Atomic Jolt](http://www.atomicjolt.com).
@@ -7,7 +7,7 @@ utilize React.
 
 ## Build a new application using the React Rails Starter App Rails application template:
 -----------
-rails new my_app -m https://raw.githubusercontent.com/atomicjolt/react_rails_starter_app/master/template.rb
+rails new my_app -m https://raw.githubusercontent.com/atomicjolt/landlord/master/template.rb
 
 ## Running React Rails Starter App
 -----------
@@ -33,9 +33,9 @@ Note: the App and Assets subdomains must be different.
 
 #### Modify application name
 -----------
-1. Open application.rb and change `reactrailsstarterapp` to the name you choose.
-2. Do a global search and replace for `react_rails_starter_app` and change it to the name you choose.
-3. Do a global search and replace for `reactrailsstarterapp` (use only letters or numbers for this name. Special characters like '_' will result in errors).
+1. Open application.rb and change `Landlord` to the name you choose.
+2. Do a global search and replace for `landlord` and change it to the name you choose.
+3. Do a global search and replace for `Landlord` (use only letters or numbers for this name. Special characters like '_' will result in errors).
 
 #### Secrets file
 -----------
@@ -70,10 +70,10 @@ $ rake db:setup
 ### <a name="developer_key"></a>Setting up OAuth
 -----------
 **Oauth2 Redirect URI:**
-https://reactrailsstarterapp.atomicjolt.xyz/auth/[provider]/callback
+https://Landlord.atomicjolt.xyz/auth/[provider]/callback
 
 **Icon URL:**
-https://reactrailsstarterapp.atomicjolt.xyz/oauth_icon.png
+https://Landlord.atomicjolt.xyz/oauth_icon.png
 
 Once your request is approved you will receive a Key and Secret. Add these credentials to `config/secrets.yml` and
 then add those values to devise.rb. It will look something like this:
